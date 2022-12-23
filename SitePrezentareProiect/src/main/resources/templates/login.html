@@ -1,0 +1,15 @@
+<html lang="en" xmlns:th="https://thymeleaf.org">
+<head>
+<title> Intra pe site-ul meu ! </title>
+</head>
+<body style = "background: url(https://www.wallpaperbetter.com/wallpaper/771/828/963/snow-winter-new-year-christmas-snowman-2K-wallpaper.jpg); background-size: 100% 100%;">
+<p style="color:purple; text-align:center; background-color:white; font-size:200%; font-family:Comic sans MS;"> Introdu numele si prenumele </p>
+<input type="text" onkeyup="if(this.value.length > 0) document.getElementById('Intra').disabled = false; else document.getElementById('Intra').disabled = true;"/ name="Nume" minlength="1" maxlength="15" placeholder="Nume">
+<input type="text" onkeyup="if(this.value.length > 0) document.getElementById('Intra').disabled = false; else document.getElementById('Intra').disabled = true;"/ name="Prenume" minlenght="1" maxlength="15" placeholder="Prenume">
+<form method="post" action="Fisier"><input type="submit" value="Intra" id="Intra" disabled> Intra </form>
+<input type="radio" name="statut" value="1"> Profesor <br>
+<input type="radio" name="statut" value="2"> Student <br>
+<input type="radio" name="statut" value="3"> Alta functie <br>
+<p align=right valign=right> Acest site este realizat de Purcariu Bogdan </p>
+</body>
+</html>

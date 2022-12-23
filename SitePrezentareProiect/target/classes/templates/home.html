@@ -1,0 +1,51 @@
+<html lang="en" xmlns:th="https://thymeleaf.org">
+<head>
+<title> Eu </title>
+<h1><font color="black"> Despre mine </font></h1>
+<h1 align=center><font face="Verdana"><a th:href="@{/Recenzii}" href="Recenzii.html" method="post" > Recenzii </a><a th:href="@{/CV}" href="CV.html">C.V.</a></h1>
+<img src="pp.jpg" alt="nu se poate insera" width=100 height=100>
+<style>
+body {background: url("R.jpg"); background-size: 100% 100%; }
+</style>
+</head>
+<body>
+<p align=center><font face="Comic Sans MS" color="Yellow"> Bine ai venit !  </font></p>
+<fieldset>
+<p><font color="black"> Ma numesc Purcariu Bogdan, sunt student in Anul II la <a href="https://www.unitbv.ro/"><font color="red"> Universitatea Transilvania </font></a> din Brasov <a href="https://iesc.unitbv.ro/ro/"><font color="red">la Facultatea de Inginerie electrica si Stiinta a Calculatoarelor </font></a>, si acesta este site-ul meu de prezentare. </font></p>
+<br><font color="black"> In urmatoarele randuri o sa ma prezint cat mai scurt si la obiect, exprimandu-mi dorintele si asteptarile mele de la mine pe parcursul facultatii, cat si realizarile de pana acum, pasiunile, trecutul si etc.</font></br>
+</fieldset>
+<fieldset>
+<br><font color="black"> Dupa cum am precizat si mai sus, ma numesc Purcariu Bogdan, am 20 ani si sunt din Comanesti, judetul Bacau, am terminat cele 12 clase din invatamantul gimnazial si cel liceal, la Scoala Gimnaziala " Liviu Rebreanu ", respectiv Colegiul Tehnic " Dimitrie Ghika ", unde am absolvit <font color="lime"> profilul Stiinte ale Naturii </font>, de mic am fost un pasionat al calculatoarelor, pasiunea mea, incepand de la varsta de 7 ani de cand am primit primul meu calculator, a fost reprezentata initial doar de partea jocurilor video, fiind un fan infocat al unor numeroase francize de jocuri video (Need for Speed, Sonic, Counter-Strike) dar a evoluat cand am descoperit <font color="red"> Adobe Flash Player </font> la varsta de 8 ani, unde universul jocurilor video s-a largit semnificativ pentru mine . </font></br>
+<fieldset><legend> CV: </legend>
+<p><font color="blue" size=5> Informatii Personale: </font></p>
+<p><font color="red" size=3> Nume si Prenume: </font><font color="black" face="Verdana"> Purcariu Bogdan </font></p>
+<p><font color="red" size=3> Domiciliu: </font><font color="black" face="Verdana"> Orasul Comanesti, judetul Bacau </font></p>
+<p><font color="red" size=3> Contact: </font><font color="black" face="Verdana"> bogdan_22022002@yahoo.com <br> bogdan.purcariu@student.unitbv.ro </font></br></p>
+<p><font color="red" size=3> Nationalitate: </font><font color="black" face="Verdana"> Roman </font></p>
+<p><font color="red" size=3> Data de nastere: </font><font color="black" face="Verdana"> 22 februarie 2002 </font></p>
+<p><font color="red" size=3> Sex: </font><font color="black" face="Verdana"> Masculin </font></p>
+<p><font color="red" size=3> Limba materna: </font><font color="black" face="Verdana"> Romana </font></p>
+<br></br>
+<p><font color="blue" size=5> Educatie: </font></p>
+<p><font color="red" size=3> Scoala: </font><font color="black" face="Verdana"><br> Scoala Gimnaziala "Liviu Rebreanu" 2009-2017 </br><br> Colegiul Tehnic "Dimitrie Ghika" 2017-2021</br><br> Facultatea de Inginerie Electronica, telecomunicatii si tehnologii informationale 2021-2025 </font></br></p>
+<p><font color="red" size=3> Studii extrascolare: </font><font color="black" face="Verdana"> Cisco Networking Academy (2018-2019) - IT Essentials </font></p>
+<p><font color="red" size=3> Competente lingvistice: </font><font color="black" face="Verdana"> Limba engleza : B2 (Listening) B2 (Reading) B1 (Spoken interaction) B1 (Spoken Production) </font></p>
+<br></br>
+<p><font color="blue" size=5> Alte competente: </font></p>
+<p><font color="red" size=3> Permis de conducere: </font><font color="black" face="Verdana"> tip AM, B1 si B </font></p>
+</fieldset>
+<h1><font color="black"> Parerea ta conteaza ! Spune-mi ce ar trebui sa schimb la site </font></h1>
+<style>
+body {background: url("R.jpg"); background-size: 100% 100%; }
+</style>
+<script>
+function myFunction(){
+alert("Parerea ta a fost trimisa ! Iti multumesc pentru atentia acordata !")
+}
+</script>
+</head>
+<body>
+<textarea onkeyup="if(this.value.length >75) document.getElementById('Trimite').disabled = false; else document.getElementById('Trimite').disabled = true;"/></textarea>
+<form method="alert" action=><input type="submit" name="Trimite" value="Trimite" onclick="myFunction()" id="Trimite" disabled>
+</body>
+</html>
